@@ -13,7 +13,7 @@ public class Test {
 		String content = args[0];
 
 		try {
-
+			//define file
 			file = new File("C:\\Users\\user\\workspace\\Data\\NewFile.txt");
 			fop = new FileOutputStream(file);
 
