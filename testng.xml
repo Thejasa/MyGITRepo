@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "false" >
+  <test name="GetText">
+  	<parameter name = "number" value = "4"/>   	
+    <classes>
+      <class name="TestPackage.PromoValidate">
+      	<methods>
+      		<include name = "GetText"/>
+      		</methods>      
+      	</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
