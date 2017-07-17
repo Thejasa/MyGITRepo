@@ -9,7 +9,7 @@ public class Test {
 
 		FileOutputStream fop = null;
 		File file;
-		//String content = "This is the text content";
+		//String content = "This is the text contentssss";
 		String content = args[0];
 
 		try {
